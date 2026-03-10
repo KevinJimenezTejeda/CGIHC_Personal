@@ -249,27 +249,27 @@ void Inputs(GLFWwindow* window) {
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)  //GLFW_RELEASE
 		glfwSetWindowShouldClose(window, true);
 	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-		movX += 0.08f;
+		movX += 0.01f;
 	if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-		movX -= 0.08f;
+		movX -= 0.01f;
 	if (glfwGetKey(window, GLFW_KEY_PAGE_UP) == GLFW_PRESS)
-		movY += 0.08f;
+		movY += 0.01f;
 	if (glfwGetKey(window, GLFW_KEY_PAGE_DOWN) == GLFW_PRESS)
-		movY -= 0.08f;
+		movY -= 0.01f;
 	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-		movZ -= 0.08f;
+		movZ -= 0.01f;
 	if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-		movZ += 0.08f;
+		movZ += 0.01f;
 	if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS)
-		roty += 0.4f;
+		roty += 0.1f;
 	if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
-		roty -= 0.4f;
+		roty -= 0.1f;
 	if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
-		rotx += 0.4f;
+		rotx += 0.1f;
 	if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS)
-		rotx -= 0.4f;
+		rotx -= 0.1f;
 	if (glfwGetKey(window, GLFW_KEY_Q) == GLFW_PRESS)
-		rotz += 0.4f;
+		rotz += 0.1f;
 	if (glfwGetKey(window, GLFW_KEY_E) == GLFW_PRESS)
-		rotz -= 0.4f;
+		rotz -= 0.1f;
 }
